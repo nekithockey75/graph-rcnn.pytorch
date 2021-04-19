@@ -1,4 +1,4 @@
-# graph-rcnn.pytorch
+# 1. graph-rcnn.pytorch
 
 Pytorch code for our ECCV 2018 paper ["Graph R-CNN for Scene Graph Generation"](https://arxiv.org/pdf/1808.00191.pdf)
 
@@ -322,7 +322,7 @@ If you want to visualize some examples, you just simple append the command with:
 
 We appreciate much the nicely organized code developed by [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark). Our codebase is built mostly based on it.
 
-# Scene Graph Generation by Iterative Message Passing
+# 2 Scene Graph Generation by Iterative Message Passing
 
 ![Scene Graph prediction samples](http://cs.stanford.edu/~danfei/scene-graph/preview.jpeg "Sample predictions")
 
