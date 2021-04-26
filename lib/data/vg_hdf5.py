@@ -286,5 +286,5 @@ def load_graphs(graphs_file, images_file, mode='train', num_im=-1, num_val_im=0,
         gt_classes.append(gt_classes_i)
         relationships.append(rels)
 
-    im_sizes = np.stack(im_sizes, 0)
+    im_sizes = np.array([]) if len(im_sizes) == 0 else np.stack(im_sizes, 0)
     return split_mask, image_index_valid, im_sizes, boxes, gt_classes, relationships
