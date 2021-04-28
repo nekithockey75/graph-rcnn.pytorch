@@ -1,6 +1,6 @@
 # Download the mini-vg dataset
 
-mkdir -p data/
+mkdir -p data
 
 echo 'Downloading the mini-vg dataset...'
 wget http://svl.stanford.edu/projects/scene-graph/dataset/mini-vg.zip
