@@ -25,7 +25,7 @@ class SceneGraphGeneration:
         """
         self.cfg = cfg
         self.arguments = arguments.copy()
-        self.device = torch.device("cuda")
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
         # build data loader
         self.data_loader_train = build_data_loader(cfg, split="train", is_distributed=distributed)
