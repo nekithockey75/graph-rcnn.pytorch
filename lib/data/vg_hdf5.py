@@ -13,7 +13,7 @@ from lib.scene_parser.rcnn.structures.bounding_box import BoxList
 from lib.utils.box import bbox_overlaps
 
 class vg_hdf5(Dataset):
-    def __init__(self, cfg, split="train", transforms=None, num_im=-1, num_val_im=5000,
+    def __init__(self, cfg, split="train", transforms=None, num_im=-1, num_val_im=0,
             filter_duplicate_rels=True, filter_non_overlap=True, filter_empty_rels=True):
         assert split == "train" or split == "test", "split must be one of [train, val, test]"
         assert num_im >= -1, "the number of samples must be >= 0"
