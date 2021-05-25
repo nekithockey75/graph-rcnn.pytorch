@@ -112,3 +112,6 @@ venv.bak/
 *.zip*
 datasets
 checkpoints
+logs/sg_baseline_2021-05-25-09:29:56.txt
+.gitignore
+logs/config.yml
